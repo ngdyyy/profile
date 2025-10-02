@@ -1,0 +1,612 @@
+body {
+    margin:0px;
+}
+
+.mobile {
+    display: none;
+}
+
+.box-2-mobile {
+    display: none;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 1081.8px;
+    background: linear-gradient(to bottom, black 10%, gray);
+    flex-direction: column;
+}
+
+.box {
+    color: white;
+}
+
+.box-1 {
+    width: 500px; 
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0;
+    font-size: 28px;
+}
+  
+.line-1 {
+    animation: typing1 2s steps(30, end) forwards, blink 0.7s step-end infinite;
+}
+  
+.line-2 {
+    animation: typing2 2s steps(33, end) forwards, blink 0.7s step-end infinite;
+    animation-delay: 2.2s;
+    opacity: 0;      
+    border-right: none;
+}
+  
+.line-2 {
+    animation-fill-mode: forwards; 
+}
+
+  
+@keyframes typing1 {
+    from { width: 0; }
+    to   { width: 30ch; }
+}
+  
+ @keyframes typing2 {
+    from { width: 0; opacity: 1; }
+    to   { width: 33ch; opacity: 1; }
+}
+  
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.box-2-desktop {
+    display: flex;
+    position:fixed;
+    top:0;
+    right:0;
+    width: 90px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.home {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+}
+
+.home a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-square-facebook:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover {
+    color: orangered;
+    transition: 0.5s;
+}
+
+.fa-square-github:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.box-3 {
+    width: 800px;
+    height: fit-content;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    padding: 0;
+}
+
+.main-1 {
+    margin-bottom: 0;
+}
+
+.main-2 {
+    margin-bottom: 0;
+}
+
+.main-content h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    margin: 0;
+    font-size: 28px;
+}
+
+.main-content h4 {
+    overflow: hidden;
+    white-space:nowrap;
+    display:inline-block;
+    margin: 0;
+}
+
+.main-1 {
+    animation: main1 1s steps(10, end) forwards;
+    animation-delay: 4.6s;
+    opacity: 0;
+}
+
+.main-1 {
+    animation-fill-mode: forwards; 
+}
+
+.content-line-1 {
+    animation: contentline1 5s steps(230, end) forwards;
+    animation-delay: 6s;
+    opacity: 0;
+    max-width: 800px;
+    max-height: 55.2px;
+}
+
+.content-line-1 {
+    animation-fill-mode: forwards ;
+}
+
+@keyframes contentline1 {
+    from {width: 0; opacity: 1;}
+    to { width: 230ch; opacity: 1;}
+}
+
+.content-line-2 {
+    animation: contentline2 5s steps(230, end) forwards;
+    animation-delay: 8s;
+    opacity: 0;
+    max-width: 800px;
+    max-height: 55.2px;
+}
+
+.content-line-2 {
+    animation-fill-mode: forwards ;
+}
+
+@keyframes contentline2 {
+    from {width: 0; opacity: 1;}
+    to { width: 230ch; opacity: 1;}
+}
+
+.content-line-3 {
+    animation: contentline3 5s steps(230, end) forwards;
+    animation-delay: 10s;
+    opacity: 0;
+    max-width: 800px;
+    max-height: 55.2px;
+}
+
+.content-line-3 {
+    animation-fill-mode: forwards ;
+}
+
+@keyframes contentline3 {
+    from {width: 0; opacity: 1;}
+    to { width: 230ch; opacity: 1;}
+}
+
+.main-2 {
+    animation: main2 1s steps(10, end) forwards;
+    animation-delay: 11s;
+    opacity: 0;
+}
+
+.main-2 {
+    animation-fill-mode: forwards; 
+}
+
+@keyframes main1 {
+    from { width: 0; opacity: 1; }
+    to   { width: 10ch; opacity: 1; }
+}
+
+@keyframes main2 {
+    from { width: 0; opacity: 1; }
+    to   { width: 10ch; opacity: 1; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.content-text-1 {
+    animation: contenttext1 5s steps(230, end) forwards;
+    animation-delay: 12s;
+    opacity: 0;
+    max-width: 800px;
+    max-height: 55.2px;
+}
+
+.content-text-1 {
+    animation-fill-mode: forwards ;
+}
+
+@keyframes contenttext1 {
+    from {width: 0; opacity: 1;}
+    to { width: 230ch; opacity: 1;}
+}
+
+.content-text-2 {
+    animation: contenttext2 5s steps(230, end) forwards;
+    animation-delay: 14s;
+    opacity: 0;
+    max-width: 800px;
+    max-height: 55.2px;
+}
+
+.content-text-2 {
+    animation-fill-mode: forwards ;
+}
+
+@keyframes contenttext2 {
+    from {width: 0; opacity: 1;}
+    to { width: 230ch; opacity: 1;}
+}
+
+.box-4 {
+    position: absolute;
+    top:122.08px;
+    right: 90px;
+    width: 430px;
+    height: 600px;
+   
+}
+
+.box-5 {
+    margin: 20px;
+    gap: 10px;
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 700px;
+}
+
+.text {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn-1 {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-1:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.btn-2 {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-2:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.btn-3 {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-3:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.btn-4 {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-4:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.btn-5 {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-5:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.btn-6 {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-6:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.web {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.web-1 {
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.web-1:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.web-2 {
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.web-2:hover {
+    background-color: aqua;
+    color: white;
+    border: 1px solid aqua;
+    transition: 0.4s;
+}
+
+.web-3 {
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.web-3:hover {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    transition: 0.4s;
+}
+
+.web-4 {
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.web-4:hover {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    transition: 0.4s;
+}
+
+.box-6 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 1000px;
+    font-size: 15px;
+    width: 1460px;
+    height: fit-content
+}
+
+.footer-text {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+
+    .box-2-desktop {
+        display: none;
+    }
+
+    .box-2-mobile {display: block;}
+
+    .main-content {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        max-width: 400px;
+    }
+
+    .english-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        height: 2000px;
+        background: linear-gradient(to bottom, black 10%, gray);
+        flex-direction: column;
+    }
+
+    .box-2 {
+        display: flex;
+        width: 440px;
+        position: absolute;
+        height: 100px;
+        top:1600px;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box-5 {
+        display: flex;
+        position: absolute;
+        top: 1200px;
+        font-size: 12px;
+    }
+
+    .box-4 {
+        display: flex;
+        position: absolute;
+        top: 500px;
+        right: 30px;
+    }
+
+    .header h1 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        margin: 0;
+        font-size: 28px;
+    }
+      
+    .line-1 {
+        animation: typing1 2s steps(30, end) forwards, blink 0.7s step-end infinite;
+    }
+      
+    .line-2 {
+        animation: typing2 2s steps(31, end) forwards, blink 0.7s step-end infinite;
+        animation-delay: 2.2s;
+        opacity: 0;      
+        border-right: none;
+    }
+      
+    .line-2 {
+        animation-fill-mode: forwards; 
+    }
+    
+      
+    @keyframes typing1 {
+        from { width: 0; }
+        to   { width: 30ch; }
+    }
+      
+     @keyframes typing2 {
+        from { width: 0; opacity: 1; }
+        to   { width: 31ch; opacity: 1; }
+    }
+      
+    @keyframes blink {
+        50% { border-color: transparent; }
+    }
+
+    .box-6 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 1900px;
+        font-size: 15px;
+        width: 500px;
+        height: fit-content
+    }
+    
+    .footer-text {
+        text-align: center;
+    }
+}
