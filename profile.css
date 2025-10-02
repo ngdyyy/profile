@@ -495,7 +495,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 700px) {
 
     .box-2-desktop {
         display: none;
@@ -611,3 +611,4 @@ body {
     }
 
 }
+
