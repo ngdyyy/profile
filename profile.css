@@ -507,6 +507,13 @@ body {
         max-width:100%;
     }
 
+    .box-3, .box-4, .box-5, .box-6 {
+        width: 100%;
+        max-width: 100%;
+        left: 0;
+        margin: 0 auto;
+    }
+
     .box-1 {
         max-width: 100%;
     }
@@ -628,3 +635,4 @@ body {
     }
 
 }
+
