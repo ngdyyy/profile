@@ -495,7 +495,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 560px) {
 
     .box-2-desktop {
         display: none;
@@ -609,4 +609,5 @@ body {
     .footer-text {
         text-align: center;
     }
+
 }
