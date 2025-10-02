@@ -503,6 +503,10 @@ body {
         display: none;
     }
 
+    .container {
+        max-width:100%;
+    }
+
     .box-1 {
         max-width: 100%;
     }
@@ -622,4 +626,5 @@ body {
     .footer-text {
         text-align: center;
     }
+
 }
